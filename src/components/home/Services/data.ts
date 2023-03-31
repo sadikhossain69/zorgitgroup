@@ -1,6 +1,6 @@
 import Design from '@images/design.svg';
 import Web from '@images/development.svg';
-import Marketing from '@images/Marketing.svg';
+import Marketing from '@images/Marketing.jpg';
 
 const serviceData = [
   {
