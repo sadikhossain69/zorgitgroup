@@ -107,11 +107,11 @@ export const footerMenu = [
 export const bottomMenu = [
   {
     title: 'Privacy Policy',
-    to: '',
+    to: '/privacy-policy',
   },
   {
     title: 'Terms of Use',
-    to: '',
+    to: '/terms-and-conditions',
   },
   {
     title: 'Site Map',
