@@ -22,7 +22,7 @@ export const CONTACT_CARD_DATA: CardTypes[] = [
     id: 3,
     title: 'Email Information',
     icon: FiMail,
-    desc: 'start@zorgitgroup.com',
-    href: 'mailto:start@zorgitgroup.com',
+    desc: 'mail@zorgitgroup.com',
+    href: 'mailto:mail@zorgitgroup.com',
   },
 ];

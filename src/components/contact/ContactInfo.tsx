@@ -10,8 +10,7 @@ export const ContactInfo: React.FC<ContactInfoProps> = ({}) => {
       <h4 className="text-title text-base sm:text-xl font-normal sm:font-medium">Contact Us</h4>
       <h5 className="font-semibold text-2xl sm:text-4xl my-4 text-title">Get in Touch With Us</h5>
       <p className="text-xs leading-5 mb-5">
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-        unknown printer took a galley of type and scrambled it to make a type specimen book.
+        
       </p>
       <div className="grid sm:grid-cols-2 gap-5">
         {CONTACT_CARD_DATA.map((card) => {
