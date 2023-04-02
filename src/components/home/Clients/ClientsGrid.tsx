@@ -10,7 +10,7 @@ export default function ClientsGrid() {
         {clients.map((client) => (
           <a key={client._id} href={client.url} target="_blank" rel="noreferrer">
             <div className="flex items-center justify-center h-full shadow-lg">
-              <img src={client.image} className="p-2" alt="clients logo" />
+              <img src={client.image} className="p-2 h-20" alt="clients logo" />
             </div>
           </a>
         ))}
