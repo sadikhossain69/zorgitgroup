@@ -28,7 +28,7 @@ export const footerMenu = [
       },
       {
         title: 'Search Engine Optimization',
-        to: '/seo',
+        to: '',
       },
     ],
   },
@@ -121,17 +121,20 @@ export const bottomMenu = [
 ];
 
 export default function FooterLink({ title, to, menuTitle }: Props) {
-  if(menuTitle === "Clients") return (
+  if (menuTitle === "Clients") return (
     <p>{title}</p>
   )
-  if(to.startsWith('http') || to.startsWith("https")) return (
+  if (to.startsWith('http') || to.startsWith("https")) return (
     <a href={to} target={"_blank"}>
       <span>{title}</span>
     </a>
+  )
+  if (to.length === 0) return (
+    <p>{title}</p>
   )
   return (
     <Link to={to}>
       <span>{title}</span>
     </Link>
-  );
+  )
 }
