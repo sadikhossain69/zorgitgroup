@@ -8,7 +8,7 @@ import FooterLink, { bottomMenu, footerMenu } from './FooterMenu';
 export default function Footer() {
   return (
     <SectionLayout classNames="bg-[#333333] mb-0">
-      <footer className="grid grid-cols-1 px-8 pt-8 pb-10 mt-5 text-left text-white lg:gap-0 md:justify-items-center lg:pb-24 sm:px-0 sm:grid-cols-2 sm:gap-x-64 lg:gap-x-12 md:gap-x-10 md:grid-cols-4 md:px-5 lg:flex lg:justify-between md:text-left xl:flex xl:gap-16 2xl:px-4">
+      <footer className="grid grid-cols-1 px-8 pt-8 pb-10 mt-5 text-left text-white lg:gap-0 md:justify-items-center lg:pb-24 sm:px-0 sm:grid-cols-2 sm:gap-x-64 lg:gap-x-12 md:gap-x-10 md:grid-cols-4 md:px-5 lg:flex lg:justify-center md:text-left xl:flex xl:gap-16 2xl:px-4">
         {footerMenu.map((menu) => (
           <div key={menu.menuTitle} className="mb-8">
             <h6 className="font-semibold text-xl sm:text-[16px] mb-5">{menu.menuTitle}</h6>
