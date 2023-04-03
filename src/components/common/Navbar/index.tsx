@@ -84,7 +84,7 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:block mt-2">
-            <a href='https://wa.me/message/VUQHDAMVQEK5A1' target={"_blank"} className="transition duration-300 bg-[#252525] text-white hover:bg-primary-dark  hover:text-white px-4 btn font-medium text-[16px]">
+            <a href='https://wa.me/message/VUQHDAMVQEK5A1' target={"_blank"} className="transition duration-300 bg-[#252525] text-white hover:bg-primary-dark  hover:text-white px-4 btn font-medium lg:text-[20px] md:text-[16px]">
               Let's Talk
             </a>
           </div>
