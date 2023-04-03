@@ -11,23 +11,23 @@ export const footerMenu = [
     subMenu: [
       {
         title: 'Web & Apps Design',
-        to: '',
+        to: '/development',
       },
       {
         title: 'Web & Apps Development',
-        to: '',
+        to: '/development',
       },
       {
         title: 'Digital marketing',
-        to: '',
+        to: '/digital-marketing',
       },
       {
         title: 'Graphics Design',
-        to: '',
+        to: '/design',
       },
       {
         title: 'Search Engine Optimization',
-        to: '',
+        to: '/seo',
       },
     ],
   },
