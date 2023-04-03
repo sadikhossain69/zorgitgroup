@@ -4,6 +4,7 @@ import memberThree from '@/assets/images/member3.png';
 import MejarPhoto from '@/assets/images/mejan.jpg';
 import MehidiPhoto from '@/assets/images/Mehidi.jpg';
 import SumonPhoto from '@/assets/images/Sumon.png';
+import SaifulPhoto from "@/assets/images/Mahfuz.jpg"
 
 export const fakeTeamData = [
   {
@@ -32,7 +33,7 @@ export const fakeTeamData = [
   },
   {
     id: 5,
-    image: memberTwo,
+    image: SaifulPhoto,
     name: 'Saiful ',
     position: 'Graphic Designer',
   },
