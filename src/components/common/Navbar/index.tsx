@@ -29,7 +29,7 @@ export default function Navbar() {
     <>
       <nav
         className={`fixed bg-white md:bg-transparent ${isScrolling && 'md:bg-white shadow'
-          } top-0 z-50 flex flex-wrap items-center justify-between w-full mb-3 md:pr-2  `}
+          } top-0 z-50 flex flex-wrap items-center justify-between w-full mb-3 lg:px-10  `}
       >
         <div
           className={`md:container flex flex-wrap items-center justify-between mx-auto ${navbarOpen && 'h-screen md:h-auto'
