@@ -6,7 +6,7 @@ import aboutUsImg from '@images/aboutHeader.png';
 const TermsCondition = () => {
     return (
         <GlobalLayout>
-            <Header pageTitle="Privacy Policy" image={aboutUsImg} path="/privacy-policy" />
+            <Header pageTitle="Terms & Condition" image={aboutUsImg} path="/terms-and-conditions" />
             <TermsConditionSection />
         </GlobalLayout>
     );
