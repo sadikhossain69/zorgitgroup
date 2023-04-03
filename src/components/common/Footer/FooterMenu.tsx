@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 interface Props {
   title: string;
   to: string;
+  menuTitle?: string;
 }
 
 export const footerMenu = [
@@ -119,7 +120,10 @@ export const bottomMenu = [
   },
 ];
 
-export default function FooterLink({ title, to }: Props) {
+export default function FooterLink({ title, to, menuTitle }: Props) {
+  if(menuTitle === "Clients") return (
+    <p>{title}</p>
+  )
   if(to.startsWith('http') || to.startsWith("https")) return (
     <a href={to} target={"_blank"}>
       <span>{title}</span>

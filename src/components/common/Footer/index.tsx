@@ -14,7 +14,7 @@ export default function Footer() {
             <h6 className="font-semibold text-xl sm:text-[16px] mb-5">{menu.menuTitle}</h6>
             <div className="flex flex-col font-normal gap-2 lg:gap-1 text-[18px] md:text-[16px] whitespace-nowrap">
               {menu.subMenu.map((menuItem) => (
-                <FooterLink key={menuItem.title} title={menuItem.title} to={menuItem.to} />
+                <FooterLink key={menuItem.title} menuTitle={menu.menuTitle} title={menuItem.title} to={menuItem.to} />
               ))}
             </div>
           </div>
