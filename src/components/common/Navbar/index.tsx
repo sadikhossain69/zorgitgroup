@@ -58,8 +58,8 @@ export default function Navbar() {
           >
             <ul
               className={`flex w-full md:mt-0 md:bg-transparent transition-all bg-white md:transition-none ease-in-out duration-700 flex-col pt-5 list-none md:pt-0 md:flex-row lg:ml-auto ${navbarOpen
-                  ? 'translate-y-0 opacity-100'
-                  : ' -translate-y-full opacity-0 md:opacity-100 md:translate-y-0 w-full'
+                ? 'translate-y-0 opacity-100'
+                : ' -translate-y-full opacity-0 md:opacity-100 md:translate-y-0 w-full'
                 }`}
             >
               {links.map((link) => (
@@ -69,9 +69,11 @@ export default function Navbar() {
             {navbarOpen && (
               <div className="block px-3 pt-24 md:hidden">
                 <p className="pb-3 text-base capitalize">Ready to partner?</p>
-                <button className="w-full px-10 py-2 text-lg font-semibold transition duration-300 ease-in-out hover:bg-transparent hover:text-primary-dark bg-primary-dark md:w-3/5 btn btn-primary">
-                  Let’s partner
-                </button>
+                <a href="https://wa.me/message/VUQHDAMVQEK5A1" target={"_blank"}>
+                  <button className="w-full px-10 py-2 text-lg font-semibold transition duration-300 ease-in-out hover:bg-transparent hover:text-primary-dark bg-primary-dark md:w-3/5 btn btn-primary">
+                    Let’s partner
+                  </button>
+                </a>
                 <div className="flex justify-center md:justify-start">
                   <div className="flex gap-10 mt-6 md:gap-2 sm:gap-12">
                     <IconGroup />
