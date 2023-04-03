@@ -16,9 +16,11 @@ export default function Header() {
             and grow tech products. Our partnership goes far beyond delivering features; we make
             sure we solve the right problem and build a product that brings true value to users.
           </p>
-          <button className="w-full px-10 py-2 text-lg font-semibold transition duration-300 ease-in-out hover:bg-transparent hover:text-primary-dark bg-primary-dark md:w-3/5 btn btn-primary">
-            Let’s partner
-          </button>
+          <a href="https://wa.me/message/VUQHDAMVQEK5A1" target={"_blank"}>
+            <button className="w-full px-10 py-2 text-lg font-semibold transition duration-300 ease-in-out hover:bg-transparent hover:text-primary-dark bg-primary-dark md:w-3/5 btn btn-primary">
+              Let’s partner
+            </button>
+          </a>
           <div className="flex justify-center md:justify-start">
             <div className="flex gap-10 mt-6 md:gap-2 sm:gap-12">
               <IconGroup />
