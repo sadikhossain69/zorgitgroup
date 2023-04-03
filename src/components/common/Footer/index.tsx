@@ -35,7 +35,9 @@ export default function Footer() {
               <div className="ml-1 text-2xl">
                 <FaRegEnvelope />
               </div>
-              <p className="">zorgitgroup@gmail.com</p>
+              <a href="mailto:mail@zorgitgroup.com">
+                <p className="">mail@zorgitgroup.com</p>
+              </a>
             </div>
             <div className="mt-4 sm:mt-0">
               <h6 className="ml-1 text-xl sm:text-[16px] font-semibold mb-3">Follow Us</h6>
