@@ -29,7 +29,7 @@ export default function Navbar() {
     <>
       <nav
         className={`fixed bg-white md:bg-transparent ${isScrolling && 'md:bg-white shadow'
-          } top-0 z-50 flex flex-wrap items-center justify-between w-full mb-3 lg:px-10  `}
+          } top-0 z-50 flex flex-wrap items-center justify-between w-full mb-3 lg:px-10 md:px-3 `}
       >
         <div
           className={`md:container flex flex-wrap items-center justify-between mx-auto ${navbarOpen && 'h-screen md:h-auto'
@@ -83,8 +83,8 @@ export default function Navbar() {
             )}
           </div>
 
-          <div className="hidden md:block">
-            <a href='https://wa.me/message/VUQHDAMVQEK5A1' target={"_blank"} className="transition duration-300 bg-[#252525] text-white hover:bg-primary-dark  hover:text-white px-4 btn font-medium text-[20px]">
+          <div className="hidden md:block mt-2">
+            <a href='https://wa.me/message/VUQHDAMVQEK5A1' target={"_blank"} className="transition duration-300 bg-[#252525] text-white hover:bg-primary-dark  hover:text-white px-4 btn font-medium text-[16px]">
               Let's Talk
             </a>
           </div>
