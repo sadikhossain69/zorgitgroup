@@ -1,10 +1,10 @@
-import portfolio1 from '@images/portfolioImage1.png';
-import portfolio2 from '@images/portfolioImage2.png';
-import portfolio3 from '@images/portfolioImage3.png';
+import portfolio1 from '@images/portfolio1.png';
+import portfolio2 from '@images/portfolio2.jpeg';
+import portfolio3 from '@images/portfolio3.jpeg';
 const projectsData = [
   {
     _id: 1,
-    img: portfolio1,
+    img: portfolio2,
     title: 'Qtdealz',
     link: 'https://qtdealz.com',
     description:
@@ -12,7 +12,7 @@ const projectsData = [
   },
   {
     _id: 2,
-    img: portfolio2,
+    img: portfolio1,
     title: 'Chilis',
     link: 'https://chilis.com',
     description:
