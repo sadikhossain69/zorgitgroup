@@ -50,7 +50,7 @@ export default function Projects() {
   };
 
   return (
-    <section className="my-16">
+    <section className="md:my-16">
       <Title title="Our Work Portfolio" />
       <h5 className="px-10 text-center">
         Some Selected works from our clients. We have worked with many clients and have delivered
