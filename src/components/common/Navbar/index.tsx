@@ -40,7 +40,7 @@ export default function Navbar() {
               className={`inline-block py-2 mr-4 text-sm font-bold leading-relaxed uppercase whitespace-nowrap `}
               to="/"
             >
-              <img className={`${width < 768 && "w-28"}`} src={`${width < 768 ? smallLogo : Logo}`} alt="company logo" />
+              <img className={`${width < 768 && "w-44"}`} src={`${width < 768 ? smallLogo : Logo}`} alt="company logo" />
             </Link>
             <button
               className={`${navbarOpen ? `rotate-180` : `-rotate-180`

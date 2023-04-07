@@ -48,7 +48,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ }) => {
   return (
     <>
       <Toaster />
-      <form className="mt-10 p-5 shadow-xl rounded-sm" onSubmit={handleSubmit(onSubmit)}>
+      <form className=" p-5 shadow-xl rounded-sm" onSubmit={handleSubmit(onSubmit)}>
         <div className="grid grid-cols-2">
           <TextInputField
             name="name"

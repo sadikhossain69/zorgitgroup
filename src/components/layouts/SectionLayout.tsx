@@ -8,7 +8,7 @@ interface SectionLayoutProps {
 export default function SectionLayout({ children, classNames = '' }: SectionLayoutProps) {
   return (
     <section
-      className={`max-w-screen-2xl mx-auto sm:px-14 lg:px-32 2xl:px-0 py-2 md:my-8 my-0 ${classNames}`}
+      className={`max-w-screen-2xl mx-auto sm:px-14 lg:px-32 2xl:px-0 md:my-8  ${classNames}`}
     >
       {children}
     </section>
