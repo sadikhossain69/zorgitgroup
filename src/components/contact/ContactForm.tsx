@@ -100,7 +100,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ }) => {
           error={message?.message}
         />
 
-        <button type="submit" className="btn-primary text-white px-12 text-lg py-2 mt-4 mx-4">
+        <button type="submit" className="btn-primary text-white hover:text-white hover:bg-black px-12 text-lg py-2 mt-4 mx-4">
           Submit
         </button>
       </form>

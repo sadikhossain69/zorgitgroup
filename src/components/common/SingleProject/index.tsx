@@ -11,7 +11,7 @@ export const SingleProject: React.FC<SingleProjectProps> = ({
   project: { _id, img, title, description, link },
 }) => {
   return (
-    <div className="w-full px-4" key={_id}>
+    <div className="w-full border-[1px] border-red-200 px-4" key={_id}>
       <div className="relative group overflow-hidden h-[400px] 2xl:h-[600px]">
         {/* Main Image */}
         <img
