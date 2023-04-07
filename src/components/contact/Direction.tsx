@@ -4,7 +4,7 @@ export default function Direction() {
   return (
     <section
       id="map"
-      className="space-y-3 mx-6 max-w-screen-2xl sm:px-14 lg:px-32 2xl:px-0 py-2 my-8"
+      className="space-y-3 mx-6 max-w-screen-3xl sm:px-14 lg:px-32 2xl:px-20  py-2 my-8"
     >
       <h5 className="text-base">Happy To Meet</h5>
       <h3 className="text-2xl font-semibold">Get Direction</h3>
